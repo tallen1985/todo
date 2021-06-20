@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+
+#listContainer {
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: left;
+
+}
+    #listContainer .itemBox h2 {
+        display: inline-block;
+        
+    }
+    #listContainer .itemBox {
+        width: 95%;
+        display: inline-block;
+        padding: 10px;
+        
+    }
+    #listContainer p {
+        display: inline-block;
+        width: 70%;
+        
+    }
+    #listContainer .deleteButton {
+        float: right;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+#addItem {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: cadetblue;
+    width: 200px;
+    margin: 20px auto;
+}
+#addForm {
+    display: none;
+}

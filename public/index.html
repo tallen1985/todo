@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>To do List</h1>
+    <h2 id='addItem'>Add Item</h2>
+        <div id="addForm">
+        <label for='addName'>Item Name</label>
+        <input id='addName'></input>
+        <label for='addNote'>Item Notes</label>
+        <input id='addNote'></input>
+        <button class="addButton" onClick='addItem()'>Add Item</button>
+        </div>
+    <div id='listContainer'>
+        <div class="itemBox">
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
