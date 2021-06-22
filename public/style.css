@@ -57,8 +57,11 @@ h1 {
 }
 #addForm {
     display: none;
-    width: 60%;
+    width: 200px;
     margin: 0 auto;
+}
+.addButton {
+    font-size: 1rem;
 }
  @media screen and (max-width:800px) {
      #listContainer {
@@ -72,8 +75,5 @@ h1 {
      }
      #listContainer .itemBox .deleteButton {
          font-size: 1.5rem;
-     }
-     .addButton {
-         font-size: 1.2rem;
      }
  }
