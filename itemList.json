@@ -1,1 +1,5 @@
-[{"item":"Beer","note":"Wicked Crazy IPA"},{"item":"Hummus","note":"Everything Bagel"},{"item":"Ian","note":"Son"},{"item":"Big baby","note":""}]
+[
+    {"user":"Jake","item":"Beer","note":"Wicked Crazy IPA"},
+    {"user":"Jake","item":"Hummus","note":"Everything Bagel"},{"user":"Jake","item":"Ian","note":"Son"},
+    {"user":"Jake","item":"Big baby","note":""}
+]
