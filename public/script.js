@@ -60,9 +60,10 @@ const getList = () => {
 const addItem = () => {
   let newName = document.getElementById('addName').value;
   let newNote = document.getElementById('addNote').value;
+  let userName = document.getElementById('userForm').value;
 
   if (newName !== '') {
-    fetch(`/api/add?item=${newName}&note=${newNote}`, {method:'POST'})
+    fetch(`/api/add?user=${userName}&item=${newName}&note=${newNote}`, {method:'POST'})
   .then(response => {
     if (response.ok) {
       return response.json();
