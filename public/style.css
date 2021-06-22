@@ -7,12 +7,14 @@ body {
     color: black;
     text-align: center;
     box-sizing: content-box;
+    font-size: 16px;
 }
 h1 {
     text-shadow: grey 2px 2px;
 }
 
 #listContainer {
+    display:none;
     width: 60%;
     margin: 20px auto;
     text-align: left;
@@ -56,11 +58,15 @@ h1 {
     margin: 20px auto;
 }
 #addForm {
+    font-size: 1rem;
     display: none;
     width: 200px;
     margin: 0 auto;
 }
 .addButton {
+    font-size: 1rem;
+}
+#userForm {
     font-size: 1rem;
 }
  @media screen and (max-width:800px) {

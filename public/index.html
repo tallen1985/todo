@@ -2,11 +2,19 @@
 <head>
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+     user-scalable=0' >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <h1>Handy List</h1>
+    <label for="userForm">Who's Using This?</label>
+    <select id="userForm" name="userForm">
+        <option value="">-----</option>
+        <option value="Troy">Troy</option>
+        <option value="Jake">Jake</option>
+    </select>
     <h2 id='addItem'>Add Item</h2>
         <div id="addForm">
             <label for='addName'>New Item</label>

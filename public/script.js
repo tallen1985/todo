@@ -1,14 +1,22 @@
 $(document).ready(() => {
   $('#addItem').on('click', () => {
     $('#addForm').slideToggle();
-  })
+  });
+  $('#userForm').on('change', () => {
+    $('#listContainer').show();
+    getList()
+  });
 })
 
 const listContainer = document.getElementById('listContainer');
+const selectedUser = document.getElementById('userForm')
 
 const renderList = (list) => {
     listContainer.innerHTML = '';
-    list.forEach(element => {
+    let filteredList = list.filter((item) => {
+      return (item.user == selectedUser.value)
+    })
+    filteredList.forEach(element => {
 
       const newItem = document.createElement('div');
       const itemName = element.item;
@@ -69,5 +77,5 @@ const addItem = () => {
   });
   }
 }
-getList();
+// getList();
 
